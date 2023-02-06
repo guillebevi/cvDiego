@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section{
+       height: 50vh;
+  }
+  
+  section#hero{
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  } 
+  
+  Section#hero Img{
+      Float: Right;
+      Padding: 10px;
+      Background: #Fff;
+      Margin: 0 30px;
+      Box-Shadow: 0 0 4px Rgba(0, 0, 0, 0.6);
+      border-radius: 160px;
+      Width: 30%;
+      Max-Width: 320px;
+    }
+  
+    
+  
+  
+  
+  h1{
+    margin-top: 40px;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  a{
+    font-family: 'Roboto', sans-serif;
+    
+  }
+   
+  
+  li{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  label{
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  .projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  
+  .project-detail{
+    border: 10px solid rgb(196, 246, 255);
+    border-radius: 15px;
+    width: 400px;
+    margin: 20px;
+  }
+  
+  
+  
+  .project-detail img{
+    width: 100%;
+  }
+  
+  header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(196, 246, 255);
+  }
+  
+  /*campo del navegador*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans';
+  }
+  body{
+      background-image: url(img/fondo.jpg);
+      background-size: cover;
+  }
+  nav{
+      max-width: 900px;
+      margin: auto;
+      background-color: #333;
+      font-size: 20px;
+      margin-top: 50px;
+  }
+  .menu-horizontal{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+      background-color: red;
+  }
+  .menu-vertical{
+      position: absolute;
+      display: none;
+      list-style: none;
+      width: 200px;
+      background-color: rgba(0, 0, 0, .5);
+  }
+  .menu-horizontal li:hover .menu-vertical{
+      display: block;
+  }
+  .menu-vertical li:hover{
+      background-color: black;
+  }
+  
+  .menu-vertical li a{
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 15px 15px 20px;
+  }
+  
+  #html{
+      margin: auto;
+      padding: 20px;
+      max-width: 900px;
+      background: white;
+  
+  }
+
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li{
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 10px 20px;
+   background-color: rgb(133, 217, 238);
+  }
+  
+  section#contacts{
+    background-color: rgb(196, 246, 255) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+  
+  } 
+  
+  @media screen and (max-width: 880px) {
+    section#contacts {
+      margin-top: 1150px;
+    }
+  }
